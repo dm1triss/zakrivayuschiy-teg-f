@@ -2,7 +2,6 @@
   min-block-size: 100dvb;
   max-inline-size: 700px;
   font-family: var(--font-main);
-  font-variation-settings: "wght" 400;
   font-variation-settings: var(--width-text);
   background:  repeating-linear-gradient(
     to left,
