@@ -95,7 +95,7 @@
   transition-duration: 0.3s;
   transition-delay:0.06s;
 }
-.effect__button:focus-visible{
+.effect__button:focus-visible {
   box-shadow: 2px 2px 0 #000;
   transition: box-shadow 0.3s ease-in-out;
 }
