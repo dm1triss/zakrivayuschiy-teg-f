@@ -150,7 +150,7 @@
 .card__icon-button {
   background-color: transparent;
   border: none;
-  outline: none;
+  outline: 2px solid transparent;
   padding: 0;
   margin: 2px;
 }
@@ -245,8 +245,8 @@
 .dialog__content {
   display: flex;
   flex-direction: column;
-  gap: 20px; 
-  align-items: center; 
+  gap: 20px;
+  align-items: center;
   text-transform: uppercase;
 }
 .effect__button {
