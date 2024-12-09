@@ -2,7 +2,7 @@
 :root {
   --font-accent:"PressStart2P", monoscape;
   --font-main:"Inter", sans-serif;
-  --whgt-title:"wght" 700;
-  --wght-text:"wght" 400;
+  --width-title: "wght" 700;
+  --width-text: "wght" 400;
   --stroke-color: #fff;
 }

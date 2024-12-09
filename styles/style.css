@@ -2,7 +2,8 @@
   min-block-size: 100dvb;
   max-inline-size: 700px;
   font-family: var(--font-main);
-  font-variation-settings: var(--whgt-text);
+  font-variation-settings: "wght" 400;
+  font-variation-settings: var(--width-text);
   background:  repeating-linear-gradient(
     to left,
     #d3d3d3 0 2px,
@@ -50,7 +51,7 @@
   padding-block-end: 23px;
 }
 .card__title {
-  font-variation-settings: var(--whgt-title);
+  font-variation-settings: var(--width-title);
   font-size: 18px;
   color: #000;
   font-family: var(--font-main);
@@ -66,7 +67,7 @@
 }
 .card-subtitle__text {
   font-family: var(--font-main);
-  font-variation-settings: var(--whgt-text);
+  font-variation-settings: var(--width-text);
   font-size: 18px;
   line-height: 1.16667;
   padding-right: 10px;
