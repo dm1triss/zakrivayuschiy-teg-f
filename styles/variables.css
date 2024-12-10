@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --font-accent:"PressStart2P", monoscape;
+  --font-accent:"PressStart2P", fantasy;
   --font-main:"Inter", sans-serif;
   --width-title: "wght" 700;
   --width-text: "wght" 400;
