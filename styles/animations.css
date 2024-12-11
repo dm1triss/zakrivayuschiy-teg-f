@@ -88,33 +88,57 @@
   transition-timing-function: linear;
   transition-duration: 0.3s;
 }
-.like-icon .contour {
+.is-liked .contour {
   fill: #000;
   transition-duration: 0.3s;
   transition-delay:0.06s;
   transition-timing-function: linear;
 }
-.like-icon .main-body {
+.is-liked .main-body {
   fill: #000;
   transition-duration: 0.3s;
   transition-delay:0.06s;
   transition-timing-function: linear;
+}
+.is-liked .core {
+  fill: #000;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+.like-icon .contour {
+  transition: 0.1s linear 0s;
 }
 .like-icon .core {
-  fill: #000;
-  transition-duration: 0.3s;
-  transition-delay:0.06s;
-  transition-timing-function: linear;
+  transition: 0.3s linear 0.3s;
 }
+.like-icon .main-body {
+  transition: 0.3s linear 0s;
+}
+.like-icon:hover .core,
+.like-icon:active .core {
+  transition: 0.3s linear 0s;
+}
+
+.like-icon:hover .main-body,
+.like-icon:active .main-body {
+  transition: 0.3s linear 0.05s;
+}
+
 .like-icon.is-liked .contour {
   fill: #FF0000;
+  transition: 0.3s linear 0.06s;
 }
-.like-icon.is-liked .main-body {
-  fill: #FF0000;
-}
+
 .like-icon.is-liked .core {
   fill: #FF0000;
+  transition: 0.3s linear 0s;
 }
+
+.like-icon.is-liked .main-body {
+  fill: #FF0000;
+  transition: 0.3s linear 0.05s;
+}
+
 .effect__button:focus-visible {
   box-shadow: 2px 2px 0 #000;
 }

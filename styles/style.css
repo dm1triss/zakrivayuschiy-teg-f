@@ -88,8 +88,8 @@
   filter: blur(5px) contrast(150%);
 }
 
-.first-project {
-  filter: sepia(100%) saturate(150%) hue-rotate(180deg);
+.filter-invert {
+  filter: invert(0.2);
 }
 
 .filter-sepia {
@@ -209,15 +209,19 @@
 .show__dialog {
   padding: 0;
   width: 354px;
-  margin-block-start: 108px;
-  align-content: center;
   height: 191px;
   border: 2px solid #000;
 }
+.show__dialog[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .content {
   display: flex;
-  gap: 22px;
-  padding-inline-start: 40px;
+  gap: 18px;
+  padding-inline-start: 25px;
+  align-items: center;
 }
 .dialog__svg {
   width: 78px;
@@ -244,7 +248,7 @@
 .dialog__content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   text-transform: uppercase;
 }
@@ -252,7 +256,7 @@
   position: relative;
   overflow: hidden;
   outline: none;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease;
 }
 @media (width >= 700px) {
   .card-block__image {
